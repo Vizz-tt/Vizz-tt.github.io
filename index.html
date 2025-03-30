@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        main {
+            display: flex;
+            max-width: 1100px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        article {
+            flex: 2;
+            padding: 20px;
+        }
+        article h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        article p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            background: #f4f4f4;
+            border-left: 3px solid #000000;
+        }
+        aside h3 {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+        aside ul li {
+            margin-bottom: 8px;
+        }
+        aside ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            aside {
+                border-left: none;
+                border-top: 3px solid #e65342;
+                padding-top: 10px;
+            }
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+
+        </head>
+        <body>
+
+    <header>
+        <div class="logo">RandomTV.com.bo</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/Lore de La Guerra Multiversal.html">Guerra Multiversal</a></li>
+                <li><a href="pages/Lore de SkibidiToilets.html">Lore de SkibidiToilet</a></li>
+                <li><a href="pages/Deportes.html"> Deportes</a></li>
+                <li><a href="#">Ciencias sociales</a></li>
+                <li><a href="#">Random</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Noticia del Mes</h1>
+            <p>Esta es la mejor noticia del dia, semana, mes, año y decada.</p>
+            <img src="/images/image.png" alt="Imagen ilustrativa de una página web">
+            <h2>Sinopsis del contenido del mes.</h2>
+        </html>
+        <p>El multiverso está en guerra. Los temibles Skibidy Toilets han atacado Potaxia con una devastadora bomba, desatando una feroz respuesta de las valientes Potaxianas.</p>
+            
+        <p>Para defender su territorio, las Potaxianas han formado una alianza con los Titanes Bocina y los Cameramans, mientras que los Skibidy Toilets han sumado a los caóticos Tilines Insanos a sus filas.</p>
+
+        <p>Con ambos bandos listos para el combate final, las Potaxianas preparan una emboscada estratégica que podría decidir el destino de la guerra.</p>
+
+        <p>¿Podrán restaurar la paz o sucumbirán ante la ola de destrucción? El multiverso contiene la respiración ante el desenlace de esta épica batalla.</p>
+        </article>
+        <aside>
+            <h3>ÍNDICE</h3>
+            <ul>
+                <li><a href="#">¿Qué es una página de Willis Hub?</a></li>
+                <li><a href="#">Elementos de un Willis Hub</a></li>
+                <li><a href="#">¿Para qué sirve un Willis Hub?</a></li>
+                <li><a href="#">¿Por que los anuncios son de Willis Hub?</a></li>
+            </ul>
+            <h3>SOBRE EL AUTOR</h3>
+            <p>Editorial Willis Hub. Última edición: 29 de marzo de 2025.</p>
+            <img src="/images/Willis.jpg" alt="Imagen ilustrativa de una página web">
+        </aside>
+    </main>
+</body>
+</html>
